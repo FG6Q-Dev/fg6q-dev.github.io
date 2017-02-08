@@ -1,0 +1,23 @@
+theme: jekyll-theme-midnight
+title: [LineageOS for Gigaset QV1030]
+downloads:
+    -   
+        name: LineageOS 13.0
+        changelog: lineage130.md
+        version: 6.0
+        linktitle: lineage-13.0-20170205-UNOFFICIAL-fg6q.zip
+        url: https://www.androidfilehost.com/?fid=745425885120705713
+    -   
+        name: LineageOS 12.1
+        changelog: lineage121.md
+        version: 5.1
+        linktitle: cm-12.1-20170106-UNOFFICIAL-fg6q.zip
+        url: https://www.androidfilehost.com/?fid=529152257862693418
+    -   
+        name: TWRP 3.0.2
+        linktitle: twrp-302-0-qv1030.img
+        url: https://www.androidfilehost.com/?fid=457095661767125858
+    -   
+        name: Archive
+        linktitle: Archive on Android File Host
+        url: https://www.androidfilehost.com/?w=files&flid=40535

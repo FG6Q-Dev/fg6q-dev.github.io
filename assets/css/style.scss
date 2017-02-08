@@ -1,0 +1,112 @@
+--- 
+--- 
+@import "{{ site.theme }}";
+$header-color: #212121;
+$background-color: #303030;
+$card-color: #424242;
+$cardshadow-color: rgba(0, 0, 0, 0.8);
+#header {
+    border-bottom: 0px;
+    background: $header-color;
+    height: auto;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style-image: none;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+}
+
+body {
+    background: $background-color;
+    background: linear_gradient(#2a2a29, #1c1c1c);
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 $cardshadow-color;
+    transition: 0.3s;
+    background-color: $card-color;
+    ul {
+        margin: 0;
+    }
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 $cardshadow-color;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 8px 16px;
+    overflow: auto;
+    button {
+        background-color: Transparent;
+        float: right;
+        border: 0;
+        border: none;
+        margin: 0;
+        padding: 0;
+        @extend a;
+    }
+    p {
+        margin: 0 0 10px;
+    }
+}
+
+#donate {
+    padding: 0 0 20px 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    #forms{
+       display: inline-block;
+    }
+    form {
+        display: inline-block;
+        margin: 5px 5px;
+    }
+}
+
+
+
+#laoslogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 5px 0;
+}
+
+.googleG {
+    color: #3cba54;
+    font-size: 2;
+}
+
+.googleY {
+    color: #f4c20d;
+}
+
+.googleR {
+    color: #db3236;
+}
+
+.googleB {
+    color: #4885ed;
+}
