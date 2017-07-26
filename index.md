@@ -32,6 +32,6 @@ There wont't be daily buils.
 ### Bugs
 * CM 13.1: Occasionally reboots due to old sensorblobs
 
-[Device tree](https://github.com/fg6q/android_device_quanta_fg6q) // 
-[Kernel](https://github.com/fg6q/android_kernel_quanta_fg6q) // 
-[Vendor binaries](https://github.com/fg6q/android_vendor_quanta_fg6q)
+[Device tree](https://github.com/FG6Q-Dev/android_device_quanta_fg6q) //
+[Kernel](https://github.com/FG6Q-Dev/android_kernel_quanta_fg6q) //
+[Vendor binaries](https://github.com/FG6Q-Dev/android_vendor_quanta_fg6q)
